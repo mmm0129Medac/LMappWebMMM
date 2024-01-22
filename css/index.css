@@ -12,12 +12,13 @@ div{
     display: block;
 }
 body{
+    background-color: #e7e6e3;
     font-size: 1em;
     font-family: "FF Mark W05",Arial,sans-serif;
     margin: 8px;
 }
 li{
-    background: #111;
+    background: black;
     list-style-type: none;
     text-align: center;
     flex-basis: 100%;
@@ -45,5 +46,5 @@ ul{
     flex-direction: column;
 }
 nav div{
-    background: #111;
+    background: black;
 }
