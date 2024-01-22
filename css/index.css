@@ -1,5 +1,23 @@
+nav.logobar{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    position: static;
+    margin: 0%;
+    padding: 0%;
+    font-family: "FF Mark W05",Arial,sans-serif;
+}
+
+div{
+    display: block;
+}
+body{
+    font-size: 1em;
+    font-family: "FF Mark W05",Arial,sans-serif;
+    margin: 8px;
+}
 li{
-    background: lightblue;
+    background: #111;
     list-style-type: none;
     text-align: center;
     flex-basis: 100%;
@@ -12,8 +30,9 @@ a svg{
 li a{
     font-family: sans-serif;
     text-decoration: none;
-    color: black;
-    width: 100%;display: flex;
+    color: #e7e6e3;
+    width: 100%; 
+    display: flex;
     align-items: center;
     justify-content: center;
     
@@ -23,5 +42,8 @@ ul{
     justify-content: space-evenly;
     padding: 0%;
     gap: 2px;
-    /*flex-direction: column; distribucion en columna*/ 
+    flex-direction: column;
+}
+nav div{
+    background: #111;
 }
