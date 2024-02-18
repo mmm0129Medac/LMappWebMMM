@@ -7,6 +7,7 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+    background-color: #555;
 }
 /* Estilos de logobar */
 .logobar {
@@ -75,21 +76,29 @@ body {
 
 /* Estilos fondo */
 
-.dice-roll {
-    text-align: center;
-    margin-top: 2rem;
+.top_space, .bot_space{
+    padding: 5rem;
+}
+
+.contact-form {
+    width: 50%;
     padding: 20px;
+    background-color: #cccaca;
+    background-image: url(https://media.istockphoto.com/id/891527468/es/vector/maqueta-de-envolvente-realista-de-color-rojo.jpg?s=612x612&w=0&k=20&c=f9Zf_zh37B2XhIDSfnPpRbJu_IA47LLypVvAg-Xu6hc=);
+    background-repeat: no-repeat;
+    background-position: right;
+    border: 1px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 6rem; 
+    margin-left: 20rem;
 }
 
-.rolling-dice__background{
-    background-size: auto;
-    background-color: #555;
-}
-
-.rolling-dice__content-inner{
-    margin-top: 5px;
-    padding: 10px;
-    background-color: #555;
+.contact-form label {
+    display: block; 
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem; 
+    padding: 1rem;
 }
 
 /* Footer */

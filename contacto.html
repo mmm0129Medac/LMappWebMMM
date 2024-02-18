@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/index.css">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./css/contacto.css">
 </head>
 
 <body>
@@ -15,6 +15,7 @@
                 <li class="dropdown">
                     <a href="#"><span class="flecha">&#9660</span>Menú</a>
                         <ul class="logobar-menu">
+                            <li><a href="index.html">Home</a></li>
                             <li><a href="productos.html">Tienda</a></li>
                             <li><a href="contacto.html">Login</a></li>
                             <li><a href="contacto.html">Sign in</a></li>
@@ -26,7 +27,7 @@
             <img src="./img/Dapper_Cat_White_Transparent_2000x.webp" alt="white_cat_logo" width="60" height="60">
         </div>
         <div class="contact-button">
-            <a href="contacto.html">
+            <a href="enviado.html">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                     <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
@@ -34,22 +35,23 @@
             </a>
         </div>
     </nav>
+    <div class="top_space"></div>
+    <div class="contact-form">
+        <label for=""><h2>Formulario de contacto</h2></label>
+        <form action="enviado.html" method="post" id="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
 
-    <div class="dice-roll">
-        <div class="widget">
-            <div class="rolling-dice__background">
-                <video class="dice-roll" autoplay="" playsinline="" poster="https://i.etsystatic.com/16633833/r/il/4d1acd/4955503395/il_1140xN.4955503395_md6y.jpg" muted="" loop="" preload="auto">
-                    <source src="videos/rolling-dice.webm" type="video/mp4">
-                </video>
-            </div>
-            <div class="rolling-dice_content-center">
-                <div class="rolling-dice__content-inner">
-                    <h1 class="rolling-dice__title">Gato negro<div></div></h1>
-                    <p>Tu tienda especializada en juegos de mesa</p>
-                </div>
-            </div>
-        </div>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
     </div>
+    <div class="bot_space"></div>
 </body>
 
 <footer class="footer">
