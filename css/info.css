@@ -7,6 +7,7 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+    background-color: #555;
 }
 /* Estilos de logobar */
 .logobar {
@@ -75,23 +76,43 @@ body {
 
 /* Estilos fondo */
 
-.dice-roll {
+.top_space{
+    margin: 6rem;
+}
+
+.container_info_product{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 5rem;
+    }
+.item{
+    border: 1px solid black;
+    background-color: grey;
     text-align: center;
-    margin-top: 2rem;
-    padding: 20px;
-}
-
-.rolling-dice__background{
-    background-size: auto;
-    background-color: #555;
-}
-
-.rolling-dice__content-inner{
-    margin-top: 5px;
+    color: white;
     padding: 10px;
-    background-color: #555;
+    max-width: 50rem;
+    max-height: 50rem;
+    justify-content: center;
+    padding: 2rem;
 }
 
+.item1{
+    grid-row: 1 / 4;
+    max-width: 25rem;
+}
+
+.info_text p{
+    font-family: "FF Mark W05", Arial, sans-serif;
+    color: #f4f4f4;
+    text-align: justify;
+    text-indent: 1rem;
+}
+
+.item2{
+    background-color: #333;
+}
+    
 /* Footer */
 
 .footer {
